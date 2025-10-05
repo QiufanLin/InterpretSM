@@ -2,7 +2,7 @@
 
 We present the code used in our work "Interpreting deep learning-based stellar mass estimation via causal analysis and mutual information decomposition" published at Astronomy & Astrophysics. As the name suggests, we apply two interpretability techniques, i.e., causal analysis and mutual information decomposition, to understand the mechanisms behind deep learning models that are used for the galaxy stellar mass estimation. The causal analysis involves supervised contrastive learning (SCL) and k-nearest neighbor (KNN) procedures. After these procedures, local independence tests are performed to analyze the causal structures between the target variable (i.e., stellar mass) and other variables. The mutual information decomposition is performed to quantify the redundant, unique and synergistic information components between stellar mass and any two given input datasets.
 
-The paper is available at .
+The paper is available at https://arxiv.org/abs/2509.23901.
 
 The code is tested using:
 * CPU: Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz
